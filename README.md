@@ -1,7 +1,7 @@
 # GoBeer
 GoBeer will show the list of beers and its details.
 
-GoBeer is a sample iOS App assignment developed in order to utilize the public APIs for Beers and display a list of all beer. 
+GoBeer is a sample iOS App developed in order to utilize the public APIs for Beers and display a list of all beer. 
 User can view list of Beers and also can view their beer details . 
 This app also provides the details for the beer such as Beer Tagline, Deescription,Volume and its alcohal content(Alcohol by Volume).
 
