@@ -60,7 +60,7 @@ class BeerCollectionViewCell: UICollectionViewCell {
             do {
                 self.loadedImage = try await ImageCacheManager.shared.loadImage(for: imageURL)
             } catch {
-                self.loadedImage = UIImage(systemName: "star")
+                self.loadedImage = UIImage(named: "beerPlaceholder")
             }
         }
     }
