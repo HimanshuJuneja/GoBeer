@@ -18,8 +18,8 @@ class BeersViewModel {
     
     // MARK: - Properties
     // Variables
-    let service: BeerAPIProtocol
-    var cancellables = Set<AnyCancellable>()
+    private let service: BeerAPIProtocol
+    private var cancellables = Set<AnyCancellable>()
     
     // MARK: - Custom Initializer
     init(service: BeerAPIProtocol = BeerAPIService()) {

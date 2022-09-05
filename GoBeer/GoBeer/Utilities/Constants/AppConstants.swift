@@ -9,9 +9,7 @@ import Foundation
 
 // MARK: Public Enum for storyboard name
 public enum AppStoryboardsName: String {
-  
     case main = "Main"
-   
 }
 
 // MARK:  UI Elements Dimensions Enums

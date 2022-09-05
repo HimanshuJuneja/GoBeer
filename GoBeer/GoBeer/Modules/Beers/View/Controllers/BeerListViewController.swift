@@ -11,13 +11,13 @@ import Combine
 class BeerListViewController: UIViewController {
     
     // MARK: - Outlets
-    @IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
+    @IBOutlet private weak var activityIndicatorView: UIActivityIndicatorView!
     @IBOutlet weak var beerCollectionView: UICollectionView!
     
     // MARK: - Properties
     // Variables
     var viewModel: BeersViewModel?
-    var cancellables = Set<AnyCancellable>()
+    private var cancellables = Set<AnyCancellable>()
     
     // MARK: - View Life Cycle Methods
     override func viewDidLoad() {

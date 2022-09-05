@@ -10,10 +10,10 @@ import UIKit
 class BeerDetailsViewController: UIViewController {
     
     // MARK: - Outlets
-    @IBOutlet weak var beerDescriptionLabel: UILabel!
-    @IBOutlet weak var beerVolumeLabel: UILabel!
-    @IBOutlet weak var beerTitleLabel: UILabel!
-    @IBOutlet weak var beerImageView: UIImageView!
+    @IBOutlet private weak var beerDescriptionLabel: UILabel!
+    @IBOutlet private weak var beerVolumeLabel: UILabel!
+    @IBOutlet private weak var beerTitleLabel: UILabel!
+    @IBOutlet private weak var beerImageView: UIImageView!
     
     // MARK: - Properties
     // Variables
